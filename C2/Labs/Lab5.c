@@ -2,7 +2,6 @@
   
   int main(void)
   {
-	  
 	  int id;
 	  
 	  printf("Please Enter Your ID : ");
@@ -18,10 +17,8 @@
 	  case 1145:
 	  	  printf("Welcome Mina");
 		  break;
-	default:
-		  printf("Incorrect ID!");
+		  default:
 		  break;
 	  }
-	  
 	  return 0;
   }

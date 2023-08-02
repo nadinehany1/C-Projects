@@ -2,10 +2,13 @@
   
   int main(void)
   {
-	  printf("My Name is Nadine Hany\n");
-	  printf("My Birth Date Is 1 1 2000 \n");
-	  printf("I graduated from Fuclty of Engeening\n");
-	  printf("Mechatronics Department\n");
-	  printf("Mansoura University 2022\n");
+	  int x = 7, y = 4;
+	  	  
+	  printf("x & y = %d\n",x&y);
+	  printf("x | y = %d\n",x|y);
+	  printf("x ^ y = %d\n",x^y);
+	  printf("x >> 1 = %d\n",x>>1);
+	  printf("y << 2 = %d\n",y<<2);
+	  
 	  return 0;
   }

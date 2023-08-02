@@ -2,15 +2,31 @@
   
   int main(void)
   {
-	  int x=7 ,y=4;
+	  int grade;
 	  
-	  printf("x = 7\ny = 4 \n");
+	  printf("Please Enter Your Grade : ");
+	  scanf("%d", &grade);
 	  
-	  printf("z = x & y = %d\n", x&y);
-	  printf("k = x | y = %d\n", x|y);
-	  printf("m = x ^ y = %d\n", x^y);
-	  printf("L = x >> 1 = %d\n", x>>1);
-	  printf("N = y << 2 = %d\n", y<<2);
-	  
+	  if((grade<50)&&(grade>=0))
+	  {
+		  printf("You Failed!");
+	  }
+	  else if ((grade>=50)&&(grade<65))
+	  {
+		  printf("Normal");
+	  }
+	  else if ((grade>=65)&&(grade<75))
+	  {
+		  printf("Good");
+	  }
+	  else if ((grade>=75)&&(grade<85))
+	  {
+		  printf("Very Good");
+	  }
+	  else
+	  {
+		  printf("Excenlent");
+	  }
+	  	  
 	  return 0;
   }
